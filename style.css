@@ -16,9 +16,9 @@
     box-sizing: border-box;
 
 }
-li{
+/* li{
     list-style: none;
-}
+} */
 a{
     text-decoration: none;
 }
@@ -62,3 +62,27 @@ a{
     font-weight: bold;
 }
 /* navbar ends here */
+/* plant lovers */
+.plant-lovers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-side{
+    width: 540px;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 540px;
+}
+.right-side h3{
+    font-weight: 700;
+    color: black;
+    font-size: 50px;
+}
+.right-side ul li{
+    list-style-type: disc;
+}
+/* plant lovers */
