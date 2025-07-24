@@ -4,8 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-2</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-...your-integrity-code..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui laborum accusantium eaque, velit dolorum dicta quam obcaecati distinctio nobis illo esse. Odit non incidunt praesentium tempore culpa quisquam vitae accusantium.</h1>
+    <header>
+        <nav class="max-w-[1140px] mx-auto flex justify-between items-center">
+            <img src="./assets/logo.png" alt="logo">
+            <ul class="nav-items">
+                <li><a class="sec-color main-font" href="#">Home</a></li>
+                <li><a class="sec-color main-font" href="#">Shop</a></li>
+                <li><a class="sec-color main-font" href="#">About Us</a></li>
+                <span style="display: flex; gap: 8px; color: black;">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p>Cart ($56)</p>
+                </span>
+            </ul>
+        </nav>
+        <section id="banner" class="max-w-[1140px] mx-auto flex items-end border-4 border-black my-[120px]">
+            <div class="banner-content w-1/2">
+                <h1 class="text-black sec-font font-bold text-[65px]">ALWAYS <span class="main-color">FRESH <br> FLOWERS</span></h1>
+                <p class="main-font third-color mt-3">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <div class="banner-image w-1/2 mt-28">
+                <img src="./assets/hero-flower.png" alt="">
+            </div>
+        </section>
+    </header>
 </body>
 </html>

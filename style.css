@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+@layer utilities{
+    .main-font{
+        font-family: 'Inter', sans-serif;
+    }
+    .sec-font{
+        font-family: 'Noto Serif', serif;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.main-color{
+    color: #E95A08;
+}
+.sec-color{
+    color: #8987A1;
+}
+.third-color{
+    color: rgba(0, 0, 0, 0.5);
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* ! common css ends here! */
+/* navbar starts here */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px ;
+    margin-bottom: 120px ;
+}.nav-items{
+    display: flex;
+    gap: 48px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 22px 0;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+.nav-items li a{
+    font-weight: normal;
+    font-size: 16px;
+    width: 39px;
+    transition: .3s;
+}
+.nav-items li a:hover{
+    color: #252432;
+    font-weight: bold;
+}
+/* navbar ends here */
