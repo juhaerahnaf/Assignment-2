@@ -87,3 +87,9 @@ a{
 /* ? latest plants? */
 
 /* ? latest plants? */
+/* ? footer section start ? */
+.footer-social-icons li{
+    width: 36px;
+    height: 36px;
+}
+/* ? footer section end ? */

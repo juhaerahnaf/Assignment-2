@@ -6,8 +6,7 @@
     <title>Assignment-2</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-...your-integrity-code..." crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-<script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-[#F5F8FF]">
     <header>
@@ -200,7 +199,40 @@
         </section>
         <!-- ! join section end ! -->
     </main>
-
+    <footer>
+        <div class="py-12 px-40 flex justify-between">      <!-- ? footer main div ? -->
+            <div class="w-[359px]"> <!-- footer info -->
+                <figure>
+                    <img src="./assets/logo.png" alt="footer logo">
+                    <p class="mt-4 main-font text-2xl text-black/50">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+                </figure>
+            </div>
+            <div> <!--  ? links-1 ? -->
+                <ul class="flex flex-col gap-8 text-gray-500">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>  <!--  ? links-2 ? -->
+                <ul class="flex flex-col gap-8 text-gray-500">
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Help Center</a></li>
+                </ul>
+            </div>
+            <div class="footer-social-icons flex justify-between w-[216px]"> <!--  ? social icons ? -->
+                <a href="#"><img src="./assets/icon-linkedin.png" class="w-9 h-9" alt="icon-linkedin"></a>
+                <a href="#"><img src="./assets/icon-twitter.png" class="w-9 h-9" alt="icon-twitter"></a>
+                <a href="#"><img src="./assets/icon-facebook.png" class="w-9 h-9" alt="icon-facebook"></a>
+                <a href="#"><img src="./assets/icon-youtube.png" class="w-9 h-9" alt="icon-youtube"></a>
+            </div>
+        </div>
+    </footer>
     <script>
         function addToCart() {
         alert("Flower Added to Cart");
